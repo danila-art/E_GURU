@@ -1,0 +1,80 @@
+@media (min-width: 373px) and (max-width: 376px) {
+    .header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+    }
+
+    .mobile-header__logo h2 {
+        color: #1A1A1A;
+        font-size: 13px;
+    }
+
+    .section__main-box-1 {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .header__img-logo {
+        width: 45%;
+        height: 20%;
+    }
+
+    .section {
+        display: block;
+    }
+
+    .section__heading {
+        font-size: 30px;
+    }
+
+    .section__text {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .section__text p {
+        font-size: 14px;
+    }
+    .section__main-box-2{
+        display: none;
+    }
+    .section__main-box-2-mobile{
+        display: block;
+    }
+    .section__flex-buttons{
+        margin-top: 120%;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer__box{
+        display: block;
+        width: 100%;
+    }
+}
+
+
+.mobile-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: auto;
+    height: 15vh;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.mobile-header__logo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 35%;
+    align-items: center;
+}
