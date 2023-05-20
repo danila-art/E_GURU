@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Lemon-Milk-400";
+    src: url("../font/Lemon-Milk-400.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lemon-Milk-500";
+    src: url("../font/Lemon-Milk-500.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "NunitoSans_300";
+    src: url("../font/NunitoSans_300.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "NunitoSans_400";
+    src: url("../font/NunitoSans_400.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "NunitoSans_700";
+    src: url("../font/NunitoSans_700.ttf");
+    font-weight: 700;
+}
+
+.font__Lemon-Milk-400 {
+    font-family: Lemon-Milk-400, sans-serif;
+    font-weight: 400;
+}
+
+.font__Lemon-Milk-500 {
+    font-family: Lemon-Milk-500, sans-serif;
+    font-weight: 500;
+}
+
+.font__NunitoSans-300 {
+    font-family: NunitoSans_300, sans-serif;
+    font-weight: 300;
+}
+
+.font__NunitoSans-400 {
+    font-family: NunitoSans_400, sans-serif;
+    font-weight: 400;
+}
+
+.font__NunitoSans-700 {
+    font-family: NunitoSans_700, sans-serif;
+    font-weight: 700;
+}
