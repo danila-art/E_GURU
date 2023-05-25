@@ -4,7 +4,7 @@
     }
 
     .mobile-header {
-        display: block;
+        display: flex;
     }
 
     .mobile-header__logo h2 {
@@ -39,29 +39,74 @@
     .section__text p {
         font-size: 14px;
     }
-    .section__main-box-2{
+
+    .section__main-box-2 {
         display: none;
     }
-    .section__main-box-2-mobile{
+
+    .section__main-box-2-mobile {
         display: block;
     }
-    .section__flex-buttons{
+
+    .section__flex-buttons {
         margin-top: 120%;
         width: 100%;
     }
-    .footer{
+
+    .section__button-1 a {
+        font-size: 16px;
+    }
+
+    .section__button-2 a {
+        font-size: 16px;
+    }
+
+    .footer {
         display: flex;
         flex-wrap: wrap;
     }
-    .footer__box{
+
+    .footer__box {
         display: block;
         width: 100%;
+        text-align: center;
+    }
+
+    .footer__box-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer__img {
+        margin: 0 auto;
+        padding-right: 15%;
+    }
+
+    .footer__img-2 {
+        left: 45%;
+        top: 60%;
+    }
+
+    .footer__heading h1 {
+        font-size: 26px;
+    }
+
+    .section__main-box-2-mobile {
+        display: block;
     }
 }
 
+@media (min-width: 1800px) and (max-width: 1921px) {
+    .mobile-header {
+        display: none;
+    }
+
+    .section__main-box-2-mobile {
+        display: none;
+    }
+}
 
 .mobile-header {
-    display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     width: auto;
